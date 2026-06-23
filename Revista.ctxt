@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Revista
+comment1.params=titulo\ anio\ numero\ ejemplaresDisponibles
+comment1.target=Revista(java.lang.String,\ int,\ int,\ int)
+comment2.params=
+comment2.target=int\ numero()
+comment3.params=
+comment3.target=int\ diasPrestamo()
+comment4.params=
+comment4.target=boolean\ estaDisponible()
+comment5.params=
+comment5.target=void\ prestar()
+comment6.params=
+comment6.target=void\ devolver()
+numComments=7

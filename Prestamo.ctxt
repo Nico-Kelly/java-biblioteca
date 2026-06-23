@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Prestamo
+comment1.params=usuario\ material
+comment1.target=Prestamo(Usuario,\ Material)
+comment2.params=
+comment2.target=Usuario\ usuario()
+comment3.params=
+comment3.target=Material\ material()
+comment4.params=
+comment4.target=int\ dias()
+numComments=5

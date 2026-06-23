@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=CursoCompleto
+comment1.params=titulo\ anio\ licencia\ licenciasDisponibles\ duracionMinutos\ cantidadModulos
+comment1.target=CursoCompleto(java.lang.String,\ int,\ java.lang.String,\ int,\ int,\ int)
+comment2.params=
+comment2.target=int\ duracionMinutos()
+comment3.params=
+comment3.target=int\ cantidadModulos()
+comment4.params=
+comment4.target=double\ costoLicencia()
+numComments=5

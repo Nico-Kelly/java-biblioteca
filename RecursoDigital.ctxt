@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=RecursoDigital
+comment1.params=titulo\ anio\ licencia\ licenciasDisponibles
+comment1.target=RecursoDigital(java.lang.String,\ int,\ java.lang.String,\ int)
+comment2.params=
+comment2.target=java.lang.String\ licencia()
+comment3.params=
+comment3.target=int\ diasPrestamo()
+comment4.params=
+comment4.target=boolean\ estaDisponible()
+comment5.params=
+comment5.target=void\ prestar()
+comment6.params=
+comment6.target=void\ devolver()
+comment7.params=
+comment7.target=double\ costoLicencia()
+numComments=8
