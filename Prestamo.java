@@ -6,7 +6,7 @@ public class Prestamo {
     public Prestamo(Usuario usuario, Material material){
         this.usuario = usuario;
         this.material = material;
-        this.dias = 0;
+        this.dias = material.diasPrestamo();
     }
     
     public Usuario usuario(){

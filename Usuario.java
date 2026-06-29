@@ -14,18 +14,4 @@ public class Usuario {
     public String legajo(){
         return this.legajo;
     }
-    
-    @Override
-    public boolean equals(Object otro){
-        if(otro == null){
-            return false;
-        }
-        
-        if(!(otro instanceof Usuario)){
-            return false;
-        }
-        
-        Usuario otroUsuario = (Usuario) otro;
-        return this.legajo.equals(otroUsuario.legajo());
-    }
 }

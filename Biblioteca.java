@@ -68,7 +68,7 @@ public class Biblioteca {
     public ArrayList<Prestamo> prestamosDe(Usuario usuario){
         ArrayList<Prestamo> prestamosDelUsuario = new ArrayList<Prestamo>();
         for (Prestamo prestamo : prestamosActivos){
-            if(prestamo.usuario().equals(usuario)){
+            if(prestamo.usuario() == usuario){
                 prestamosDelUsuario.add(prestamo);
             }
         }
@@ -78,7 +78,7 @@ public class Biblioteca {
     public ArrayList<Material> materialesPrestadosA(Usuario usuario){
         ArrayList<Material> materialesDelUsuario = new ArrayList<Material>();
         for (Prestamo prestamo : prestamosActivos){
-            if(prestamo.usuario().equals(usuario)){
+            if(prestamo.usuario() == usuario){
                 materialesDelUsuario.add(prestamo.material());
             }
         }
@@ -90,7 +90,7 @@ public class Biblioteca {
         for (Material material : materiales){
             ArrayList<Reserva> reservasDelMaterial = material.reservas();
             for(Reserva reserva : reservasDelMaterial){
-                if(reserva.usuario().equals(usuario)){
+                if(reserva.usuario() == usuario){
                     reservasDelUsuario.add(reserva);
                 }
             }
@@ -103,7 +103,7 @@ public class Biblioteca {
         for (Material material : materiales){
             ArrayList<Reserva> reservasDelMaterial = material.reservas();
             for(Reserva reserva : reservasDelMaterial){
-                if(reserva.usuario().equals(usuario)){
+                if(reserva.usuario() == usuario){
                     materialesReservadosDelUsuario.add(reserva.material());
                 }
             }

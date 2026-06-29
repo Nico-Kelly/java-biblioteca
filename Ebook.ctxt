@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=Ebook
-comment1.params=titulo\ anio\ licencia\ licenciasDisponibles\ cantidadPaginas
-comment1.target=Ebook(java.lang.String,\ int,\ java.lang.String,\ int,\ int)
-comment2.params=
-comment2.target=int\ cantidadPaginas()
-comment3.params=
-comment3.target=double\ costoLicencia()
-numComments=4
